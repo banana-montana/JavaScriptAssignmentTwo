@@ -1,0 +1,173 @@
+body {
+  background-color: #581845;
+  font-family: 'Quicksand', helvetica, arial, sans-serif;
+  background: -webkit-linear-gradient(to bottom right, #581845, #900C3F); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to bottom right, #581845, #900C3F); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to bottom right, #581845, #900C3F); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #581845, #900C3F);
+  background-repeat: none;
+  width: 100%;
+  background-attachment: fixed;
+
+}
+
+h1 {
+	font-weight: 700;
+	color: #FFC300;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40pt;
+}
+
+h2 {
+	font-weight: 400;
+  	color: #FFC300;
+  	text-align: center;
+  	font-size: 17pt;
+ 	 padding-bottom: 20px;
+}
+
+hr {
+	height: 2px;
+	background-color: #FFC300;
+	width: 60%;
+}
+
+/* fortune teller readings */
+
+#container01 {
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#container01 h1 {
+  font-weight: 700;
+  color: #edc951;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 23pt;
+}
+
+
+
+#container01 h2 {
+  font-weight: 400;
+  color: #FFC300;
+  text-align: center;
+  font-size: 14pt;
+  padding-bottom: 20px;
+}
+
+.onepress {
+  display: block;
+  text-align: center;
+}
+
+#container01 button {
+  padding: 10px;
+  background-color: #C70039;
+  color: #FFC300;
+  font-size: 11pt;
+  text-transform: uppercase;
+  border-radius: 16px;
+  text-decoration: none;
+  border: 0.5pt solid #581845;
+  transition: 0.2s ease-in;
+  margin: 0 auto;
+  text-align: center;
+  margin: 5px;
+}
+
+#container01 button:hover {
+  background-color: #B10033;
+  transition: 0.5s ease-out;
+}
+
+#container01 .onepress button:disabled, button[disabled] {
+   background-color: #a8a8a8;
+   color: white;
+   transition: 0.2s ease;
+}
+
+#fortune {
+  border-radius: 10px;
+  font-size: 16pt;
+  background-color: #FF5733;
+  padding: 20px;
+  color: white;
+  width: 800px;
+  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+/* lotto number generator */
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top:20px;
+}
+
+#container02 h1 {
+  font-weight: 700;
+  color: #edc951;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 23pt;
+}
+
+#container02 h2 {
+  font-weight: 400;
+  color: #FFC300;
+  text-align: center;
+  font-size: 14pt;
+  padding-bottom: 20px;
+}
+
+#container02 {
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#container02 button {
+  padding: 10px;
+  background-color: #C70039;
+  color: #FFC300;
+  font-size: 11pt;
+  text-transform: uppercase;
+  border-radius: 16px;
+  text-decoration: none;
+  border: 0.5pt solid #581845;
+  transition: 0.2s ease-in;
+  margin: 0 auto;
+  text-align: center;
+  margin: 5px;
+  margin-bottom: 50px;
+}
+
+#container02 button:hover {
+  background-color: #B10033;
+  transition: 0.5s ease-out;
+}
+
+#randomNumbers {
+  display: none;
+  border-radius: 10px;
+  font-size: 16pt;
+  background-color: #FF5733;
+  padding: 20px;
+  color: white;
+  width: 800px;
+  height: 90px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+li {
+  display: inline;
+  text-align: center;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>The Daily Prophet</title>
+
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+
+</head>
+<body>
+
+<h1>~The Daily Prophet~</h1>
+<h2>Use our magical divination tools crafted by our very own certified fortune specialists to enrich your daily life.</h2>
+<hr>
+
+<!-- fortune teller readings -->
+	<div id="container01">
+
+  <h1>The Crystal Ball</h1>
+  <h2>Find out what the future has in store for you today...</h2>
+    <section class="buttons">
+      <div class="onepress">
+      <button id="stop" onclick="readFortune()">Ask the Gods!</button>
+      
+
+      <div id="reset">
+      <button onclick="reset()">Ask the Gods to rethink it</button>
+      </div>
+      </div>
+
+      <br/><br/>
+      <!-- your fortune -->
+      <div id="fortune"></div>
+    </section>
+    </div>
+
+<!-- lotto number generator -->
+	<div id="container02">
+
+	<h1>Magical Number Picker</h1>
+	<h2>Find out your lucky numbers for the day...</h2>
+
+  <div class="onepress">
+	<button onclick="revealNumbers()">Lucky Numbers</button>
+  </div>
+
+	<li id="randomNumbers"></li>
+
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
