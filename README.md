@@ -3,6 +3,7 @@
 Programming Fundamentals Assignment (Unassisted) : 
 The Crystal Ball and Magical Numbers
 
+
 The Daily Prophet is a fortune telling site where users can receive their fortune (The Crystal Ball) and their lucky numbers (Magical Numbers) for the day. 
 
 The Crystal Ball is a simple fortune generator that consists of two buttons and a results box. Users will find out their fortune by selecting a button called “Ask the Gods” which links to a function that generates a random fortune reading from an array and feeds it into a box. 
@@ -10,8 +11,10 @@ If the user is unhappy with the first fortune they have received they have anoth
 
 Once the user has received their fortune they can find their magical lucky numbers for the day. Users will find out what their lucky numbers for the day are by selecting the button “Lucky Numbers”. The page will immediately scroll down once the button is pressed to create space for the results box that will appear below the button. The numbers will appear in the results box.
 
+
 Epic:
 A simple fortune generator and random lucky number generator. 
+
 
 User Story:
 - User wants to find out their fortune and selects “Ask the Gods” button.
